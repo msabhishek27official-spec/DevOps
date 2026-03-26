@@ -21,4 +21,7 @@ jobs:
       - name: Step2
         run: echo "Hello from Step2"
 
+      - name: Pipeline Break
+        run: exit1
+
 
